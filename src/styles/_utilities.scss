@@ -1,0 +1,15 @@
+.icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    &-classBack {
+        font-size: 2rem;
+        font-weight: bold;
+        color: black;
+    }
+}

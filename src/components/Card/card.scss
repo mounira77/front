@@ -1,0 +1,38 @@
+.card {
+  max-width: 20rem;
+  min-height: 20rem;
+  background-color: #fff;
+  color: var(--gris);
+  border-radius: 5px;
+
+  box-shadow: 0px 0px 10px rgba(244, 11, 136, 0.5);
+ // margin: 1rem 1rem;
+  transition: all 1s;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: var(--primary-color);
+  }
+
+  &-img {
+    // overflow: hidden; /* Pour éviter le débordement d'images */
+    img {
+      max-width: 100%;
+      width: 15rem;
+      height: 15rem;
+      object-fit: cover; // vertical-align: top;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+  }
+
+  &-content {
+    text-align: center;
+    h3 {
+      font-size: 1.6rem;
+      padding: 0.2rem;
+      color: var(--primary-color);
+    }
+  }
+}

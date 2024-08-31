@@ -1,0 +1,25 @@
+.displayR {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: space-between;
+
+  margin-top: 1rem;
+  position: relative;
+  &-taille {
+    width: 80%;
+  }
+  &-select {
+    width: 20%;
+    position: sticky;
+  }
+}
+@media screen and (max-width: 667px) {
+  .displayR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

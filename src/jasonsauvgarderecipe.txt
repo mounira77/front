@@ -1,0 +1,37 @@
+{
+  "title": "sablé ",
+  "designation": " a la base de semoule et patte de datte",
+  "tags": "semoule,ble,sucre",
+  "nbr_pieces": 403,
+  "id_category": 1,
+  "id_user": 1,
+  "url_recip": "url",
+  "reference": "ert",
+  "ingredients": [
+    {
+      "id_ingredient": 2,
+      "quantite": 3
+    },
+    {
+      "id_ingredient": 2,
+      "quantite": 1
+    }
+  ],
+  "steps": [
+    {
+    
+    "id_step":1,
+      "time": 30,
+      "order_step": 1,
+      "designation": "blabalak"
+    },
+     {
+    
+      "id_step":2,
+      "time": 30,
+       "order_step": 1,
+      "designation": "blabalak"
+    }
+  ]
+
+}

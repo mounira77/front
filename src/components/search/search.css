@@ -1,0 +1,9 @@
+.search {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 5rem;
+  width: 100%;
+  border: 1px solid green;
+}/*# sourceMappingURL=search.css.map */

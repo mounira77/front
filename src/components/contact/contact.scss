@@ -1,0 +1,32 @@
+.displayCt {
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: space-between;
+
+  margin-top: 1rem;
+  position: relative;
+  &-taille {
+    width: 100%;
+
+  }
+  &-margDiv {
+    margin-top: 3rem;
+    width: 50%;
+    p {
+
+      padding-left: 3rem;
+      text-align: start;
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .displayCt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

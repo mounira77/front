@@ -1,0 +1,25 @@
+@mixin input {
+  border: none;
+  border-radius: 2rem;
+  // background: #bf9393;
+  color: #000;
+  padding: 0 1rem;
+  display: inline-block;
+  //font-weight: 400;
+  font-size: 1.5rem;
+  width: 90%;
+  height: 5rem;
+  outline: var(--prrimary-color);
+}
+@mixin label {
+  //font-weight: 400;
+  font-size: 1.5rem;
+
+  //width: 100%;
+}
+
+@mixin flex($direction: "row", $wrap: "wrap") {
+  display: flex;
+  flex-wrap: #{$wrap};
+  flex-direction: #{$direction};
+}

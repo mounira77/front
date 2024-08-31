@@ -1,0 +1,14 @@
+.btn_primary {
+  display: inline-block;
+  border-radius: 5PX;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+button {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 100%;
+}/*# sourceMappingURL=button.css.map */

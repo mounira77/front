@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  padding: 1rem;
+  background-color: var(--header-color);
+  width: 100%; //margin-bottom:1rem;
+/*background-image: url('ariereplan.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  &-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    position: sticky; // padding:2px;
+  }
+  img {
+    cursor: default;
+    width: 50%;
+    filter: drop-shadow(var(--shadow-lg));
+  }
+  &-hidden {
+    width: 60%;
+  }
+  &-position {
+    position: absolute;
+    top: 0;
+    left: 2;
+  }
+}
+
+
+
+@media screen and (max-width: 667px) {
+  .header {
+    img {
+      width: 40%;
+    }
+    &-flex {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      Gap: 0.5rem;
+
+      &__display {
+        display: none;
+      }
+    }
+    &-hidden {
+      display: none;
+    }
+  }
+
+}

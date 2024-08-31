@@ -1,0 +1,20 @@
+.footer {
+  padding: 1rem;
+  background-color: var(--header-color);
+  width: 100%;
+  margin-top: 1rem;
+  height: auto;
+  &-font {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid gray;
+  }
+  a {
+    display: inline-block;
+    margin-right: 1.5rem;
+    color: Black;
+  }
+  h4 {
+    margin-bottom: 0.5rem;
+  }
+}

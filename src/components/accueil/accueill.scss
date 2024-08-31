@@ -1,0 +1,40 @@
+.displayA {
+
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  &-taille {
+    width: 80%;
+    padding: 0;
+    background-color: var(--header-color);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+  }
+  &-select {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    display: block;
+    width: 20%;
+    position: sticky;
+    background-color: var(--header-color);
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .displayA {
+
+    display: flex;
+    flex-direction: column;
+    &-taille {
+      width: 100%;
+    }
+    &-select {
+      display: none;
+
+    }
+  }
+}

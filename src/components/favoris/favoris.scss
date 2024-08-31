@@ -1,0 +1,73 @@
+@use "../../styles/mixins" as mxn;
+.favoris {
+  width: 30%;
+  display: flex;
+  color: var(--gris);
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 2rem;
+
+  a {
+    color: var(--gris);
+
+
+
+    +a {
+      // +a adjacente a
+      //margin-left: 6rem;
+    }
+
+    text-decoration: none;
+    font-size: 1.6rem;
+
+
+    font-weight: bold;
+    &:hover {
+      color: (var(--primary-color));
+    }
+
+
+  }
+
+
+  &-position {
+    position: relative;
+    z-index: 99;
+  }
+  &-positionSpan {
+    position: absolute;
+    top: -10px;
+    left: 34px;
+    width: 2rem;
+    height: 2rem;
+    color: var(--color-white);
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+}
+
+.fa-icon {
+  font-Size: 2.5rem;
+}
+
+@media screen and (max-width: 667px) {
+  .favoris {
+    span {
+      width: 1.5rem;
+      height: 1.5rem;
+      color: var(--color-white);
+      background-color: var(--primary-color);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      top: -1px;
+    }
+  }
+}
